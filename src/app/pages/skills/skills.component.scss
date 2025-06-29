@@ -1,0 +1,52 @@
+// .skills-section {
+//     padding: 60px 20px;
+//     background: #f9f9f9;
+  
+//     h2 {
+//       text-align: center;
+//       font-size: 2.5rem;
+//       margin-bottom: 40px;
+//       color: #3f51b5;
+//     }
+  
+//     .skill-category {
+//       margin-bottom: 30px;
+  
+//       h3 {
+//         font-size: 1.4rem;
+//         color: #333;
+//         margin-bottom: 10px;
+//       }
+  
+//       mat-chip-list {
+//         display: flex;
+//         flex-wrap: wrap;
+//         gap: 10px;
+//       }
+  
+//       mat-chip {
+//         font-size: 0.95rem;
+//         font-weight: 500;
+//       }
+//     }
+//   }
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.skill-card {
+  padding: 1rem;
+
+  mat-chip {
+    margin: 5px; // <-- Adds space between chips
+  }
+}
+.skill-card:last-child {
+  border: 1px dashed #607d8b;
+  background-color: #f0f4f8;
+}
+
+  

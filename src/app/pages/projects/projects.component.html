@@ -1,0 +1,32 @@
+<div class="projects-wrapper">
+  <h2>Professional Projects</h2>
+
+  <section *ngFor="let group of projects" class="organization-section">
+    <h3>{{ group.organization }}</h3>
+    <p class="position">{{ group.title }} | {{ group.duration }}</p>
+
+    <div class="project-grid">
+      <mat-card class="project-card" *ngFor="let project of group.projects">
+        <mat-card-header>
+          <mat-card-title>{{ project.name }}</mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+          <p class="description">{{ project.description }}</p>
+          <div class="tech-stack">
+            <strong>Tech Stack:</strong>
+            <mat-chip-list>
+              <mat-chip *ngFor="let tech of project.techStack" color="primary" selected>
+                {{ tech }}
+              </mat-chip>
+            </mat-chip-list>
+          </div>
+        </mat-card-content>
+
+        <!-- <mat-card-actions class="card-footer">
+          <a href="#" class="view-more-link">View More</a>
+        </mat-card-actions> -->
+      </mat-card>
+    </div>
+  </section>
+</div>

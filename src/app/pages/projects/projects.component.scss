@@ -1,0 +1,71 @@
+.projects-wrapper {
+  padding: 2rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+  }
+
+  .organization-section {
+    margin-bottom: 3rem;
+
+    h3 {
+      margin-bottom: 0.2rem;
+      color: #333;
+    }
+
+    .position {
+      margin-bottom: 1.2rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); // 2 cards per row
+      gap: 1.5rem;
+
+      @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+
+      .description {
+        margin-bottom: 1rem;
+        font-size: 14px;
+        color: #444;
+      }
+
+      .tech-stack {
+        margin-top: 0.5rem;
+
+        mat-chip {
+          margin: 2px;
+        }
+      }
+
+      .card-footer {
+        margin-top: auto;
+        text-align: right;
+
+        .view-more-link {
+          text-decoration: none;
+          font-weight: 500;
+          color: var(--accent-color);
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: darken(#26A69A, 10%);
+          }
+        }
+      }
+    }
+  }
+}

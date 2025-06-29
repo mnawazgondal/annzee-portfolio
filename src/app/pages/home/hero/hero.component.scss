@@ -1,0 +1,124 @@
+// .hero-section {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 85vh;
+//     text-align: center;
+//     background: linear-gradient(to right, #e3f2fd, #f5f5f5);
+//     // background: linear-gradient(to right, #3f51b5, #2196f3);
+//     // color: white;
+//     // padding: 80px 20px;
+//     // text-align: center;
+  
+//     .hero-content {
+//       max-width: 700px;
+  
+//       h1 {
+//         font-size: 3rem;
+//         margin-bottom: 1rem;
+//         font-weight: 600;
+//       }
+  
+//       p {
+//         font-size: 1.2rem;
+//         color: #666;
+//         margin-bottom: 2rem;
+//       }
+  
+//       .cta-buttons {
+//         display: flex;
+//         gap: 1rem;
+//         justify-content: center;
+//         flex-wrap: wrap;
+//       }
+//     }
+//   }
+
+//   @media (max-width: 768px) {
+//     .hero-section h1 {
+//       font-size: 2.2rem;
+//     }
+  
+//     .hero-section p {
+//       font-size: 1rem;
+//     }
+//   }
+
+.hero-section {
+    height: 79vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #ECEFF1, #F5F5F5);
+    color: var(--text-color);
+    .hero-content {
+      max-width: 700px;
+  
+      h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--text-color);
+      }
+  
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--text-color);
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        color: var(--text-color);
+        margin-bottom: 2rem;
+      }
+  
+      .cta-buttons {
+        background: linear-gradient(to right, #ECEFF1, #F5F5F5);
+        color: var(--text-color);
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+  
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          text-decoration: none;
+        }
+      }
+      
+    }
+  }
+
+
+// .hero-section {
+//   height: 90vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   text-align: center;
+//   background: linear-gradient(to right, #ECEFF1, #F5F5F5);
+//   color: var(--text-color);
+//   text-align: center;
+//   padding: 60px 20px;
+
+//   h1 {
+//     font-size: 3rem;
+//     color: var(--primary-color);
+//   }
+
+//   button {
+//     margin-top: 20px;
+//     background-color: var(--accent-color);
+//     color: white;
+
+//     &:hover {
+//       background-color: darken(var(--accent-color), 10%);
+//     }
+//   }
+// }
+
+  

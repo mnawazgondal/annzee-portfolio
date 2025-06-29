@@ -1,0 +1,27 @@
+// .spacer {
+//   flex: 1 1 auto;
+// }
+// a {
+//   color: white;
+//   text-decoration: none;
+//   margin-left: 10px;
+// }
+mat-toolbar {
+  background-color: var(--primary-color);
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--accent-color);
+    }
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+}

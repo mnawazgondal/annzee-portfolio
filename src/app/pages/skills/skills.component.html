@@ -1,0 +1,10 @@
+<div class="skills-section">
+  <mat-card class="skill-card" *ngFor="let category of skills">
+    <mat-card-title>{{ category.title }}</mat-card-title>
+    <mat-chip-list>
+      <mat-chip *ngFor="let skill of category.items" color="primary" selected>
+        {{ skill }}
+      </mat-chip>
+    </mat-chip-list>
+  </mat-card>
+</div>

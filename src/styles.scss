@@ -1,0 +1,14 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  background-color: #fafafa;
+}
+
+:root {
+  --primary-color: #455A64;        // Blue Grey 700
+  --accent-color: #26A69A;         // Teal 400
+  --background-color: #F5F5F5;     // Light gray
+  --text-color: #212121;           // Default dark text
+}
