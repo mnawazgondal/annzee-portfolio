@@ -92,6 +92,31 @@
       
     }
   }
+.name {
+  white-space: nowrap;
+}
+.wave {
+  font-size: 1.5rem;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+}
 
 
 // .hero-section {

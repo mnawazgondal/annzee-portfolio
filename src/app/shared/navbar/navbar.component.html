@@ -1,5 +1,4 @@
-<mat-toolbar color="primary">
-  <!-- <span style="font-weight: bold; color: #26A69A;">A</span><span style="letter-spacing: 2px;">nnZee</span> -->
+<!-- <mat-toolbar color="primary">
   <span style="color: #26A69A;">Ann</span><span style="color: #f9f9f9;">Zee.</span>
     <span class="spacer"></span>
     <a mat-button routerLink="/">Home</a>
@@ -8,5 +7,21 @@
     <a mat-button routerLink="/projects">Projects</a>
     <a mat-button routerLink="/services">Services</a>
     <a mat-button routerLink="/contact">Contact</a>
-  </mat-toolbar>
+  </mat-toolbar> -->
+ <mat-toolbar color="primary" class="navbar">
+  <span class="logo">Ann<span class="highlight">Zee.</span></span>
+  <span class="spacer"></span> 
+
+  <!-- Wrap links in a scrollable container -->
+  <div class="nav-links">
+    <a mat-button routerLink="/home">Home</a>
+    <a mat-button routerLink="/about">About</a>
+    <a mat-button routerLink="/skills">Skills</a>
+    <a mat-button routerLink="/projects">Projects</a>
+    <a mat-button routerLink="/services">Services</a>
+    <a mat-button routerLink="/contact">Contact</a>
+  </div>
+</mat-toolbar>
+
+
   

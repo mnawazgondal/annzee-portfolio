@@ -1,27 +1,45 @@
-// .spacer {
-//   flex: 1 1 auto;
-// }
-// a {
-//   color: white;
-//   text-decoration: none;
-//   margin-left: 10px;
-// }
-mat-toolbar {
-  background-color: var(--primary-color);
+.navbar {
+  background-color: #344955;
   color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 0 10px;
 
-  a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: 500;
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #26A69A;
 
-    &:hover {
-      color: var(--accent-color);
+    .highlight {
+      color: #f9f9f9;
     }
   }
 
   .spacer {
     flex: 1 1 auto;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      flex: 0 0 auto;
+
+      &:hover {
+        color: #ffc107;
+      }
+    }
+
+    // Hide scrollbar (optional)
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }
