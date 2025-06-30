@@ -55,14 +55,14 @@
     .hero-content {
       max-width: 700px;
   
-      h1 {
-        font-size: 3rem;
-        font-weight: 600;
+      h2 {
+        font-size: 2rem;
+        font-weight: 500;
         margin-bottom: 0.5rem;
         color: var(--text-color);
       }
   
-      h2 {
+      h3 {
         font-size: 1.5rem;
         font-weight: 400;
         color: var(--text-color);
@@ -109,7 +109,7 @@
   justify-content: center;
   margin-top: 20px;
 }
-h1 {
+h2 {
   font-size: 2rem;
   text-align: center;
 
