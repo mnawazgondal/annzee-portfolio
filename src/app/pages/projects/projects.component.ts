@@ -56,7 +56,7 @@ export class ProjectsComponent {
         },
         {
           name: 'Project Hub Application',
-          description: 'Project Hub Application is a centralized platform that aggregates and presents reporting data for various projects in SharePoint. It allows PMO users, project managers, and team leads to manage and access reports based on their roles and permissions. Built with Angular and Azure Functions, it ensures seamless integration with SharePoint.',
+          description: 'Project Hub is both a central project repository and a customer status report publishing platform for Consulting and Managed Services projects.Project Hub creates a SharePoint site to store all your project documents for the Global Services Project Delivery Methodology.Project Hub creates weekly customer-facing status reports for Consulting Fixed Price and T&M projects. The published status report combines project data from Certinia with updates from the Project Manager for status, items needing leadership attention, planned activities, and schedule.',
           techStack: ['Angular', 'Azure Functions', 'SharePoint', 'Java','Spring Boot', 'ServiceNow']
         },
         {
